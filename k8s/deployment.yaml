@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: nourinnn/devops-ci-cd:v1
+          image: nourinnn/devops-ci-cd:v21
           ports:
             - containerPort: 80
