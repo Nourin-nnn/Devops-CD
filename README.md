@@ -1,4 +1,4 @@
-# DevOps CD Repository
+# Devops-CD Repository
 
 This repository automates the Continuous Deployment (CD) for the `my-app` Kubernetes application. It works in tandem with the [Devops-CI](https://github.com/Nourin-nnn/Devops-CI) repository, which triggers this CD pipeline whenever a new Docker image is built, tested, and pushed. The CD pipeline then updates the Kubernetes deployment to ensure `my-app` always runs the latest version.
 
